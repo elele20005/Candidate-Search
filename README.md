@@ -33,18 +33,18 @@ To install and run this application locally, please follow these steps:
 
 Clone the repository via SSH:
 
-`git clone git@github.com:elele20005/React-Portfolio.git`
+`git clone git@github.com:elele20005/Candidate-Search.git`
        
    Navigate to the Project Directory
 
 
- command: cd React-Portfolio
+ command: cd Candidate-Search
  
 Install Dependencies    
 run `npm create vite`.     
-second list of options sellect `JavaScript`       
+second list of options sellect `TyeScript`       
 sellect `React`, `TypeScript`.       
-command: cd `React-Portfolio` and run ` npm install`           
+command: cd `Candidate-Searcho` and run ` npm install`           
 run `npm dev/npm run dev` and navigate to the prompted URL to see your app.
 
 **Further customization**   
@@ -69,22 +69,8 @@ run `npm dev/npm run dev` and navigate to the prompted URL to see your app.
 
 
 ## Usage
-`Vite` is use to build your portfolio, which will include the following:
-
-
-A single `Header` component that appears on multiple pages
-
-
-A single `Navigation` component within the header that will use Link components from `react-router-dom` to conditionally render the different sections of your portfolio
-
-
-A single `Project` component that will be used multiple times in the Portfolio section
-
-
-A single `Footer` component that appears on multiple pages
-
+`Vite` is use to build your Candidate Search, which will include the following:
 To start the application, run:
-
 command: `npm run dev`
 
 ## License
