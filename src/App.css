@@ -1,0 +1,135 @@
+/* General Styles */
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  background: linear-gradient(to bottom, #121212, #1e1e1e);
+  color: #e0e0e0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Link Styles */
+a {
+  text-decoration: none;
+  color: #3b82f6;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Button Styles */
+button {
+  font-weight: bold;
+  background: #3b82f6;
+  color: white;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background: #2563eb;
+}
+
+/* Button - Secondary */
+button.secondary {
+  background: #9ca3af;
+}
+
+button.secondary:hover {
+  background: #6e7dff;
+}
+
+/* Navbar */
+.navbar {
+  background: #1f2937;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: #e5e7eb;
+  font-weight: bold;
+  margin-left: 1.5rem;
+}
+
+.navbar a:hover {
+  color: #3b82f6;
+}
+
+/* Header Section */
+header {
+  padding: 4rem;
+  background: linear-gradient(to right, #3b82f6, #9333ea);
+  text-align: center;
+}
+
+header h1 {
+  font-weight: bold;
+  color: #fff;
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+
+header p {
+  font-weight: medium;
+  color: #e0e0e0;
+  font-size: 1.5rem;
+}
+
+/* Section Padding */
+section {
+  padding: 2rem 1rem;
+}
+
+/* CTA Buttons */
+.btn-cta {
+  display: inline-block;
+  background: #16a34a;
+  padding: 12px 24px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 12px;
+  transition: background 0.3s ease;
+}
+
+.btn-cta:hover {
+  background: #22c55e;
+}
+
+/* Footer Section */
+footer {
+  background: #111827;
+  padding: 1.5rem;
+  text-align: center;
+  color: #9ca3af;
+}
+
+footer a {
+  color: #3b82f6;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,48 @@
+/* src/components/Table.module.css */
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+}
+
+th {
+  background-color: #1f2937;
+  color: #d1d5db;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 12px;
+  text-align: left;
+}
+
+td {
+  background-color: #111827;
+  color: #e5e7eb;
+  padding: 12px;
+  border-bottom: 1px solid #374151;
+}
+
+tr:hover td {
+  background-color: #1f2937;
+}
+
+button {
+  font-weight: bold;
+  transition: transform 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+button.remove-btn {
+  background-color: #ef4444;
+  color: #fff;
+  padding: 8px 16px;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+button.remove-btn:hover {
+  background-color: #dc2626;
+}

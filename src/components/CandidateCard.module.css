@@ -1,0 +1,86 @@
+/* src/components/CandidateCard.module.css */
+
+/* Card Container */
+.card {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  padding: 16px;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  color: #fff;
+  max-width: 280px;
+  margin: 16px;
+}
+
+/* Card Hover Effect */
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
+}
+
+/* Avatar */
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto;
+  border: 3px solid #fff;
+}
+
+/* Candidate Name */
+.name {
+  font-weight: bold;
+  font-size: 1.6rem;
+  margin-top: 12px;
+}
+
+/* Bio and Location */
+.bio,
+.location {
+  font-size: 0.9rem;
+  margin: 8px 0;
+  opacity: 0.9;
+}
+
+/* Button Container */
+.buttonGroup {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+/* Save Button */
+.saveBtn {
+  background: #34d399;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+/* Hover Effect for Save Button */
+.saveBtn:hover {
+  background: #16a34a;
+}
+
+/* Reject Button */
+.rejectBtn {
+  background: #ef4444;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+/* Hover Effect for Reject Button */
+.rejectBtn:hover {
+  background: #dc2626;
+}

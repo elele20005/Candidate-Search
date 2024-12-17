@@ -1,0 +1,97 @@
+/* src/pages/PotentialCandidatesPage.module.css */
+
+/* Main Container */
+.container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+/* Heading */
+.heading {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+  color: #3b82f6;
+  margin-bottom: 2rem;
+}
+
+/* Table Section */
+.tableContainer {
+  background-color: #1f2937;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th {
+  background-color: #111827;
+  color: #9ca3af;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 1rem;
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+.table td {
+  padding: 1rem;
+  font-weight: 300;
+  color: #d1d5db;
+  text-align: left;
+}
+
+.table tr {
+  transition: background 0.3s ease;
+}
+
+.table tr:hover {
+  background-color: #2a2f36;
+}
+
+.table td a {
+  color: #3b82f6;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.table td a:hover {
+  text-decoration: underline;
+}
+
+/* Candidate Image */
+.avatar {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #4f46e5;
+}
+
+/* Bio Text */
+.bio {
+  max-width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Actions */
+.actionButton {
+  color: #ef4444;
+  font-weight: bold;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+  transition: color 0.3s ease;
+}
+
+.actionButton:hover {
+  color: #f43f5e;
+}

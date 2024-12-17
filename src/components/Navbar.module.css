@@ -1,0 +1,22 @@
+/* src/components/Navbar.module.css */
+
+.navbar {
+  background: linear-gradient(90deg, #1e40af, #2563eb);
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.link {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding-right:10px;
+}
+
+.link:hover {
+  color: #bbdefb;
+}

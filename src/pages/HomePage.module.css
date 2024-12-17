@@ -1,0 +1,131 @@
+/* src/pages/HomePage.module.css */
+
+/* Header Section */
+.header {
+  background: linear-gradient(to right, #1d4ed8, #9333ea);
+  padding: 8rem 0;
+  text-align: center;
+}
+
+.can_card {
+
+display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+.headerTitle {
+  font-size: 5rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.headerSubtitle {
+  font-size: 1.5rem;
+  color: #e0f2fe;
+}
+
+/* Button */
+.btn {
+  background-color: #2563eb;
+  color: #fff;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  background-color: #16a34a;
+}
+
+/* CTA Section */
+.ctaSection {
+  background-color: #111827;
+  padding: 8rem 0;
+  text-align: center;
+}
+
+.ctaTitle {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.ctaText {
+  color: #9ca3af;
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Features Section */
+.featuresContainer {
+  padding: 4rem 0;
+}
+
+.featureCard {
+  background-color: #1f2937;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.featureCard:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
+}
+
+.featureTitle {
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+.featureDescription {
+  color: #9ca3af;
+  font-size: 1rem;
+}
+
+/* Candidate Save Section */
+.candidateContainer {
+  padding: 2rem;
+  text-align: center;
+  background-color: #1f2937;
+  border-radius: 12px;
+  margin: 2rem auto;
+  max-width: 600px;
+}
+
+.fetchButton {
+  background-color: #22c55e;
+  color: #fff;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.fetchButton:hover {
+  transform: scale(1.05);
+  background-color: #1d4ed8;
+}
+
+.rejectButton {
+  background-color: #ef4444;
+  color: #fff;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+}
+
+.rejectButton:hover {
+  background-color: #dc2626;
+}
