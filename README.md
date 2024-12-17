@@ -87,12 +87,14 @@ To test the application, run the React + Vite and verify that outputs match expe
 
 
 ## Additional Requirements
-This Challenge combines many of the skills covered so far. In addition to the user story and acceptance criteria, we've provided some guidelines to help get started. Your application should use Vite for building your Portfolio. The application will be invoked by using the following command:
+This Challenge combines many of the skills covered so far. In addition to the user story and acceptance criteria, we've provided some guidelines to help get started. Your application should use Vite for building your Candidate Search. The application will be invoked by using the following command:
 
 command: `npm run build` 
 
-**This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules**     
+**This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules** 
+
 Render Deployed Link: https://candidate-search-zcr3.onrender.com/potential-candidates 
+
 ## For more questions, please reach out to:
  
 - GitHub: https://github.com/elele20005
