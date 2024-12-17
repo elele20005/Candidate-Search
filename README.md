@@ -8,8 +8,8 @@ AS AN employer
 I WANT a candidate search application
 SO THAT I can hire the best candidates
 
-## Description React + JavaScript + Vite 
-My task is to create a portfolio using my new React skills, which will help set me apart from other developers whose portfolios don’t use the latest technologies. This is a single-page web developer portfolio that will showcase my skills, projects, and contact details. The portfolio features sections like About Me, Portfolio, Contact, and Resume, complemented by a user-friendly navigation system that highlights the active section. The page is dynamic, responsive, and effectively showcases my skills and expertise as a developer.      
+## Description: React + JavaScript + Vite 
+My task is to complete a candidate search application that calls the GitHub API and renders data in the browser. The application's API, which retrieves data from the GitHub API, has already been created. It's my task to complete the front end using TypeScript, call the application's API, and then deploy the entire application to Render.
                         
                               `The Snippet Is Shown Below`
 
