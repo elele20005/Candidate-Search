@@ -105,7 +105,7 @@ This Challenge combines many of the skills covered so far. In addition to the us
 command: `npm run build` 
 
 **This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules**
-
+Video Demo Link: https://candidate-search-zcr3.onrender.com/potential-candidates 
 ## For more questions, please reach out to:
  
 - GitHub: https://github.com/elele20005
