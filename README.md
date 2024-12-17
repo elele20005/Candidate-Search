@@ -12,6 +12,7 @@ SO THAT I can hire the best candidates
 My task is to complete a candidate search application that calls the GitHub API and renders data in the browser. The application's API, which retrieves data from the GitHub API, has already been created. It's my task to complete the front end using TypeScript, call the application's API, and then deploy the entire application to Render.
                         
                               `The Snippet Is Shown Below`
+![Candidtate Search1 ](https://github.com/user-attachments/assets/3edf37a8-7c52-444e-81ae-0e3d18bbf62c)
 
 ![Candidtate Search ](https://github.com/user-attachments/assets/9f4ab95c-9440-4733-9591-b91bea1ecd3e)
 
