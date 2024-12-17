@@ -4,15 +4,15 @@
 
 ## User Story
 
-AS AN employer looking for candidates with experience building single-page applications
-I WANT to view a potential employee's deployed React portfolio of work samples
-SO THAT I can assess whether they're a good candidate for an open position
+AS AN employer
+I WANT a candidate search application
+SO THAT I can hire the best candidates
 
 ## Description React + JavaScript + Vite 
 My task is to create a portfolio using my new React skills, which will help set me apart from other developers whose portfolios don’t use the latest technologies. This is a single-page web developer portfolio that will showcase my skills, projects, and contact details. The portfolio features sections like About Me, Portfolio, Contact, and Resume, complemented by a user-friendly navigation system that highlights the active section. The page is dynamic, responsive, and effectively showcases my skills and expertise as a developer.      
                         
                               `The Snippet Is Shown Below`
-![React-Portfolio PDF](https://github.com/user-attachments/assets/644fd830-9b34-410a-8c74-d398a8f101a4)
+
 
 
 The README includes sections for Description, Installation, Usage, License, Contributions, Tests, and Questions.   
