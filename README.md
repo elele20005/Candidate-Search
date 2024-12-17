@@ -13,6 +13,7 @@ My task is to complete a candidate search application that calls the GitHub API 
                         
                               `The Snippet Is Shown Below`
 
+![Candidtate Search ](https://github.com/user-attachments/assets/9f4ab95c-9440-4733-9591-b91bea1ecd3e)
 
 
 The README includes sections for Description, Installation, Usage, License, Contributions, Tests, and Questions.   
