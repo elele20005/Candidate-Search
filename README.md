@@ -44,7 +44,7 @@ Install Dependencies
 run `npm create vite`.     
 second list of options sellect `TyeScript`       
 sellect `React`, `TypeScript`.       
-command: cd `Candidate-Searcho` and run ` npm install`           
+command: cd `Candidate-Search` and run ` npm install`           
 run `npm dev/npm run dev` and navigate to the prompted URL to see your app.
 
 **Further customization**   
